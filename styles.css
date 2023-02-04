@@ -27,6 +27,20 @@ img {
     padding-bottom: 300px;
 }
 
+.container-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.container-center h1 {
+    color: #fff;
+    background-color: #333;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -52,6 +66,7 @@ li a:hover {
     color: black;
 }
 
+
 .invround {
     border: 2px solid orange;
     border-radius: 20px;
@@ -73,4 +88,13 @@ li a:hover {
 
 .projectsection {
     background-color: #CEFB84;
+}
+
+.texts {
+    color: white;
+    border border-radius: 30px;
+}
+
+h4 {
+   margin-left: 40px; 
 }
